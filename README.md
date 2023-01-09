@@ -16,6 +16,22 @@ This project utilizes a serverless function to enable the user to enter a countr
 
 ##### How to run
 
+Visit https://capital-finder-eric-kinuthia.vercel.app/api/capital_finder
 
+To search for a country's capital, append `?country=your country's name` to the base url.
 
+To search for a capital's country, append `?capital=your capital's name` to the above base url.
 
+Hit enter to view results.
+
+Examples:
+
+https://capital-finder-eric-kinuthia.vercel.app/api/capital_finder?country=Kenya
+
+Output -> The capital of Kenya is Nairobi
+
+https://capital-finder-eric-kinuthia.vercel.app/api/capital_finder?capital=Cairo
+
+Output -> Cairo is the capital of Egypt.
+
+If an invalid country/capital is entered, the output is: Invalid Request. Please try again.
